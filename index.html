@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PROTAC.me | Targeted Protein Degradation Tools</title>
+  <meta name="description" content="PROTAC.me is a portal for targeted protein degradation tools, resources, and research from the Su Lab.">
+
+  <!-- Temporary: discourage search engines from indexing this site -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="PROTAC.me home">
+      <span class="brand-main">PROTAC</span><span class="brand-dot">.</span><span class="brand-me">me</span>
+    </a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#platforms">Platforms</a>
+      <a href="#research">Research</a>
+      <a href="#collaborate">Collaborate</a>
+      <a href="https://sushanglab.com" target="_blank" rel="noopener noreferrer">Su Lab</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">TARGETED PROTEIN DEGRADATION</p>
+        <h1>Target disease-driving proteins.<br>Protect human health.</h1>
+        <p class="hero-text">
+          PROTAC.me brings together tools, databases, and research for
+          programmable protein degradation.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#platforms">Explore platforms</a>
+          <a class="button button-secondary" href="https://docking.protac.me">Open docking demo</a>
+        </div>
+      </div>
+
+      <div class="hero-graphic" aria-hidden="true">
+        <div class="protein protein-left">TARGET</div>
+        <div class="linker"></div>
+        <div class="protein protein-right">E3</div>
+        <div class="degrade-label">RECRUIT → UBIQUITINATE → DEGRADE</div>
+      </div>
+    </section>
+
+    <section class="section" id="platforms">
+      <div class="section-heading">
+        <p class="eyebrow">PLATFORMS</p>
+        <h2>Discover. Design. Degrade.</h2>
+        <p>
+          Each platform is independently hosted and can be updated without changing the main portal.
+        </p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-topline">
+            <span class="card-number">01</span>
+            <span class="status status-live">Research preview</span>
+          </div>
+          <h3>Peptide Binder Docking</h3>
+          <p>
+            A Streamlit-based research demo for structure-guided peptide-binder design against target proteins.
+          </p>
+          <a class="card-link" href="https://docking.protac.me">
+            Visit docking.protac.me <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="card card-muted">
+          <div class="card-topline">
+            <span class="card-number">02</span>
+            <span class="status">Coming soon</span>
+          </div>
+          <h3>TF Degrader Atlas</h3>
+          <p>
+            A curated database of authentic transcription factors, available degraders,
+            degradation evidence, and related degradable proteins.
+          </p>
+          <span class="card-link card-link-disabled">
+            tf.protac.me
+          </span>
+        </article>
+
+        <article class="card">
+          <div class="card-topline">
+            <span class="card-number">03</span>
+            <span class="status">Su Lab research</span>
+          </div>
+          <h3>BioPROTAC and TPD Research</h3>
+          <p>
+            Research on biologic degraders, peptide binders, induced proximity,
+            and therapeutic applications of targeted protein degradation.
+          </p>
+          <a class="card-link" href="#research">
+            View research scope <span aria-hidden="true">→</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="research">
+      <div>
+        <p class="eyebrow">RESEARCH</p>
+        <h2>Beyond conventional PROTACs</h2>
+      </div>
+
+      <div class="research-list">
+        <div class="research-item">
+          <h3>BioPROTACs</h3>
+          <p>Genetically encoded degraders that combine target binders with E3 ligase machinery.</p>
+        </div>
+
+        <div class="research-item">
+          <h3>Peptide binders</h3>
+          <p>Structure-guided discovery and validation of compact binders for difficult protein targets.</p>
+        </div>
+
+        <div class="research-item">
+          <h3>Programmable TPD</h3>
+          <p>New strategies to control disease-driving proteins through engineered degradation and induced proximity.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <p class="eyebrow">ABOUT</p>
+      <h2>PROTAC.me is an academic research portal developed by the Su Lab.</h2>
+      <p>
+        The site serves as a central home for targeted protein degradation tools,
+        databases, and research projects developed by our academic team at
+        Louisiana State University.
+      </p>
+      <p>
+        Learn more about our research at
+        <a href="https://sushanglab.com" target="_blank" rel="noopener noreferrer">sushanglab.com</a>.
+      </p>
+    </section>
+
+    <section class="section collaboration-section" id="collaborate">
+      <p class="eyebrow">OPEN FOR COLLABORATION</p>
+      <h2>Have a protein you want to degrade—or a target that needs a binder?</h2>
+      <p>
+        We welcome academic and translational collaborations involving targeted protein
+        degradation, BioPROTAC development, peptide-binder discovery, and related
+        induced-proximity strategies.
+      </p>
+      <p>
+        Please reach out to
+        <a href="mailto:ssu5@lsu.edu">Dr. Shang Su</a>
+        at <a href="mailto:ssu5@lsu.edu">ssu5@lsu.edu</a>
+        if you want your protein degraded or simply want to develop a binder for it.
+      </p>
+      <a class="button button-primary" href="mailto:ssu5@lsu.edu?subject=PROTAC.me%20collaboration%20inquiry">
+        Contact Dr. Su
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>PROTAC.me</strong>
+      <span>Target disease-driving proteins. Protect human health.</span>
+    </div>
+    <div>
+      <a href="https://sushanglab.com" target="_blank" rel="noopener noreferrer">Su Lab</a>
+      · Louisiana State University
+      · <a href="mailto:ssu5@lsu.edu">ssu5@lsu.edu</a>
+    </div>
+  </footer>
+</body>
+</html>
